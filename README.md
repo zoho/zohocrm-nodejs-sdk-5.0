@@ -1,4 +1,4 @@
-# zohocrm-nodejs-sdk-5.0
+# ZOHO CRM NODEJS SDK 5.0 for API version 5
 
 The NodeJS SDK for Zoho CRM allows developers to easily create NodeJS applications that can be integrated with Zoho CRM. This SDK serves as a wrapper for the REST APIs, making it easier to access and utilize the services of Zoho CRM. 
 Authentication to access the CRM APIs is done through OAuth2.0, and the authentication process is streamlined through the use of the NodeJS SDK. The grant and access/refresh tokens are generated and managed within the SDK code, eliminating the need for manual handling during data synchronization between Zoho CRM and the client application.
@@ -51,10 +51,11 @@ For including the latest [version](https://github.com/zoho/zohocrm-nodejs-sdk-5.
 
   - Install **NodeJS SDK**
 
-  - Navigate to the workspace of your client app.
-  - Run the command below:
+    - Navigate to the workspace of your client app.
+    
+    - Run the command below:
 
-  ```sh
-  npm install @zohocrm/nodejs-sdk-5.0
-  ```
+        ```sh
+        npm install @zohocrm/nodejs-sdk-5.0
+        ```
 For more details, kindly refer [here](/versions/1.0.0/README.md).

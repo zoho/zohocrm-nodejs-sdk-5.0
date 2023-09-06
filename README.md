@@ -25,6 +25,15 @@ License
 
 ## Latest Version
 
+- [2.0.0](/versions//2.0.0/README.md)
+
+    - Email related records API pagination Issue fixed. 
+        - Handled next_index and prev_index field datatype.
+    - User-specific fields meta class name conflicts resolved.
+    - Records APIs Issue fixed. 
+        - Supported delete operation in multi-select lookup, multi-user lookup, image upload, and subform fields.
+
+
 - [1.0.0](/versions/1.0.0/README.md)
 
     - NodeJS SDK upgraded to support v5 APIs.
@@ -58,4 +67,4 @@ For including the latest [version](https://github.com/zoho/zohocrm-nodejs-sdk-5.
         ```sh
         npm install @zohocrm/nodejs-sdk-5.0
         ```
-For more details, kindly refer [here](/versions/1.0.0/README.md).
+For more details, kindly refer [here](/versions/2.0.0/README.md).

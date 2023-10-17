@@ -25,6 +25,10 @@ License
 
 ## Latest Version
 
+- [3.0.0](/versions/3.0.0/README.md)
+
+    - Added the new key api_domain in FileStore and DBStore.
+
 - [2.0.0](/versions//2.0.0/README.md)
 
     - Email related records API pagination Issue fixed. 
@@ -54,7 +58,7 @@ For older versions, please [refer](https://github.com/zoho/zohocrm-nodejs-sdk-5.
 ## Including the SDK in your project
 You can include the SDK to your project using:
 
-For including the latest [version](https://github.com/zoho/zohocrm-nodejs-sdk-5.0/releases/tag/1.0.0) using npm
+For including the latest [version](https://github.com/zoho/zohocrm-nodejs-sdk-5.0/releases/tag/3.0.0) using npm
 
   - Install **Node** from [nodejs.org](https://nodejs.org/en/download/) (if not installed).
 
@@ -67,4 +71,4 @@ For including the latest [version](https://github.com/zoho/zohocrm-nodejs-sdk-5.
         ```sh
         npm install @zohocrm/nodejs-sdk-5.0
         ```
-For more details, kindly refer [here](/versions/2.0.0/README.md).
+For more details, kindly refer [here](/versions/3.0.0/README.md).

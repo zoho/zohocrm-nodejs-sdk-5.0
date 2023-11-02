@@ -78,7 +78,6 @@ You can include the SDK to your project using:
   ```sh
   npm install @zohocrm/nodejs-sdk-5.0
   ```
-
 - The NodeJS SDK will be installed and a package named **@zohocrm/nodejs-sdk-5.0** will be created in the local machine.
 
 - include the field - "type" = "module"; in your package.json file to make use of ES modules.
@@ -86,6 +85,35 @@ You can include the SDK to your project using:
 - Another method to install the SDK
   - Add dependencies to the package.json of the node server with the latest version (recommended)
   - Run **npm install** in the directory which installs all the dependencies mentioned in package.json.
+ 
+### Dependencies
+
+- Dependencies that should be included in the project
+
+  - install **form-data**
+    ```sh
+    npm i form-data
+    ```
+  - install **got**
+    ```sh
+    npm i got
+    ```
+  - install **moment-timezone**
+    ```sh
+    npm i moment-timezone
+    ```
+  - install **mysql**
+    ```sh
+    npm i mysql
+    ```
+  - install **tunnel**
+    ```sh
+    npm i tunnel
+    ```
+  - install **winston**
+    ```sh
+    npm i winston
+    ```
 
 ## Token Persistence
 

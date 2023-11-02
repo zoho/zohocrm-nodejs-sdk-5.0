@@ -71,4 +71,32 @@ For including the latest [version](https://github.com/zoho/zohocrm-nodejs-sdk-5.
         ```sh
         npm install @zohocrm/nodejs-sdk-5.0
         ```
+### Dependencies
+
+- Dependencies that should be included in the project
+
+  - install **form-data**
+    ```sh
+    npm i form-data
+    ```
+  - install **got**
+    ```sh
+    npm i got
+    ```
+  - install **moment-timezone**
+    ```sh
+    npm i moment-timezone
+    ```
+  - install **mysql**
+    ```sh
+    npm i mysql
+    ```
+  - install **tunnel**
+    ```sh
+    npm i tunnel
+    ```
+  - install **winston**
+    ```sh
+    npm i winston
+    ```
 For more details, kindly refer [here](/versions/3.0.0/README.md).

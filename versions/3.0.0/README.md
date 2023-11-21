@@ -80,7 +80,7 @@ You can include the SDK to your project using:
   ```
 - The NodeJS SDK will be installed and a package named **@zohocrm/nodejs-sdk-5.0** will be created in the local machine.
 
-- include the field - "type" = "module"; in your package.json file to make use of ES modules.
+- include the field - "type" : "module" in your package.json file to make use of ES modules.
 
 - Another method to install the SDK
   - Add dependencies to the package.json of the node server with the latest version (recommended)
@@ -345,7 +345,7 @@ Before you get started with creating your NodeJS application, you need to regist
 |                | resourcePath  |
 
 ---
-The **environment** key contains the domain information to make API calls. The **token** key represents the OAuth info, including the clientID, clientSecret, grantToken, redirectURL, refreshToken or accessToken depending on the flow that you use. Refer to ##create an instance of OAuthToken## for more details.
+The **environment** key contains the domain information to make API calls. The **token** key represents the OAuth info, including the clientID, clientSecret, grantToken, redirectURL, refreshToken or accessToken depending on the flow that you use. Refer to **create an instance of OAuthToken** for more details.
 
 - Configure API environment which decides the domain and the URL to make API calls.
 
